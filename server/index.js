@@ -11,8 +11,6 @@ app.get('*', (req, res) => {
   res.sendFile(path.resolve(`${__dirname}/../react-client/dist/index.html`));
 });
 
-// app.use('/dist', express.static(path.join(__dirname, 'dist')));
-
 app.listen(PORT, () => {
   console.log(`listening on port ${PORT}!`);
 });
