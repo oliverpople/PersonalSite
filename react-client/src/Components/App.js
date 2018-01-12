@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { BrowserRouter as Router, Route, Link} from 'react-router-dom';
 import { browserHistory } from 'react-router';
 import HomePage from './HomePage.js';
-import Navbar from './HeaderComponent/NavBar.js';
+import NavBar from './HeaderComponent/NavBar.js';
 import Footer from './FooterComponent/Footer.js';
 
 class App extends Component {
