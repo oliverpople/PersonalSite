@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
 import Title from "./title.js";
-import Image from "./image.js";
+import Headshot from './bruges.jpg';
 import About from './About.js';
 import Experience from './Experience.js';
 
@@ -32,7 +32,7 @@ class HomePage extends Component {
       <div>
         <section ref="section1">
           <Title />
-          <Image />
+          <img className='image' src={Headshot} />
         </section>
         <section ref="section2">
           <About />

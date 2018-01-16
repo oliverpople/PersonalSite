@@ -1,12 +1,12 @@
 import React, { Component } from 'react';
-import Image from "./image.js";
+import Helvetica from './helvetica.jpg';
 
 class About extends Component {
   render() {
     return (
       <div>
         This is the About section
-        <Image />
+        <img className='image' src={Helvetica} />
       </div>
     )
   }
