@@ -1,13 +1,12 @@
 import React, { Component } from 'react';
-import oliver_pople from './oliver_pople.jpg';
+import bruges from './bruges.jpg';
 
 class Image extends Component {
   render() {
     return (
-      <div>
-      Hello!
-        return  <img src={require('./oliver_pople.jpg')} />
-      </div>
+        <div>
+        	<img className='headshot' src={require('./bruges.jpg')} />
+      	</div>
     )
   }
 }

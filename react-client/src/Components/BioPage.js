@@ -1,15 +1,14 @@
 import React, { Component } from 'react';
-import Title from "./title.js";
 import Image from "./image.js";
 
-class HomePage extends Component {
+class BioPage extends Component {
   render() {
     return (
       <div>
-        <Title />
+        This is the Bio Page
         <Image />
       </div>
     )
   }
 }
-export default HomePage;
+export default BioPage;

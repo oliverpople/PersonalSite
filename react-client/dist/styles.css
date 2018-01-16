@@ -23,3 +23,19 @@ footer {
   background-color: black;
   color: white;
 }
+
+img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+body {
+  padding: 20px;
+  font-family: "Roboto Slab", "Helvetica Neue", Helvetica, Arial, sans-serif; */
+}
+
+.TitleBox {
+  margin: 40px;
+  border: 5px dotted pink;
+}
