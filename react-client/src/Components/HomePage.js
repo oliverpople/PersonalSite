@@ -2,7 +2,9 @@ import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
 import Title from "./title.js";
 import Image from "./image.js";
-import BioPage from './BioPage.js';
+import About from './About.js';
+import Experience from './Experience.js';
+
 
 class HomePage extends Component {
 
@@ -33,7 +35,10 @@ class HomePage extends Component {
           <Image />
         </section>
         <section ref="section2">
-          <BioPage />
+          <About />
+        </section>
+        <section ref="section3">
+          <Experience />
         </section>
       </div>
     )

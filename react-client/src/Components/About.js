@@ -1,14 +1,14 @@
 import React, { Component } from 'react';
 import Image from "./image.js";
 
-class BioPage extends Component {
+class About extends Component {
   render() {
     return (
       <div>
-        This is the Bio Page
+        This is the About section
         <Image />
       </div>
     )
   }
 }
-export default BioPage;
+export default About;
