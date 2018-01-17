@@ -14,6 +14,7 @@ header {
 
 .navButton {
   float: right;
+    color: white;
 }
 
 footer {
@@ -32,9 +33,4 @@ img {
 
 body {
   font-family: "Roboto Slab", "Helvetica Neue", Helvetica, Arial, sans-serif; */
-}
-
-.TitleBox {
-  margin: 40px;
-  border: 5px dotted pink;
 }
