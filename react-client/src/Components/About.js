@@ -4,7 +4,7 @@ import Helvetica from './helvetica.jpg';
 class About extends Component {
   render() {
     return (
-      <div>
+      <div className='title'>
         This is the About section
         <img className='image' src={Helvetica} />
       </div>

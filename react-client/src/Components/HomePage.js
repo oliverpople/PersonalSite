@@ -29,18 +29,20 @@ class HomePage extends Component {
 
   render() {
     return (
+
       <div>
-        <section ref="section1">
-          <Title />
-          <img className='image' src={Headshot} />
-        </section>
-        <section ref="section2">
+        <div ref="section1">
+            <img className='image' src={Headshot} />
+            <Title />
+        </div>
+        <div ref="section2">
           <About />
-        </section>
-        <section ref="section3">
+        </div>
+        <div ref="section3">
           <Experience />
-        </section>
+        </div>
       </div>
+
     )
   }
 }

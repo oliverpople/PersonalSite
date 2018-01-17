@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 class Experience extends Component {
   render() {
     return (
-      <div>
+      <div className='title'>
         This is the Experience section
         CV
         CV
