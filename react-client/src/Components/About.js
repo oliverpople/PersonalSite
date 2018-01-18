@@ -5,7 +5,7 @@ class About extends Component {
   render() {
     return (
       <div className='title'>
-        This is the About section
+        About
         <img className='image' src={Helvetica} />
       </div>
     )

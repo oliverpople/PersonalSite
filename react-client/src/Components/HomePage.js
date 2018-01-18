@@ -4,6 +4,7 @@ import Title from "./title.js";
 import Headshot from './bruges.jpg';
 import About from './About.js';
 import Experience from './Experience.js';
+import Contact from './Contact.js';
 
 
 class HomePage extends Component {
@@ -40,6 +41,9 @@ class HomePage extends Component {
         </div>
         <div ref="section3">
           <Experience />
+        </div>
+        <div ref="section3">
+          <Contact />
         </div>
       </div>
 

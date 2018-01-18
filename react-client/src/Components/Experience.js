@@ -1,14 +1,13 @@
 import React, { Component } from 'react';
+import Helvetica from './helvetica.jpg';
 
 class Experience extends Component {
   render() {
     return (
       <div className='title'>
-        This is the Experience section
-        CV
-        CV
-        CV
-        CV
+        Experience
+        CV CV CV
+        <img className='image' src={Helvetica} />
       </div>
     )
   }
