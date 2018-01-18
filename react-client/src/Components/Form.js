@@ -16,7 +16,14 @@ export default class Form extends Component {
 
     onSubmit = (e) => {
       e.preventDefault();
-      this.props.onSubmit(this.state);  /// set.State?
+      this.props.onSubmit(this.state);
+      this.setState({
+        firstName: "",
+        lastName: "",
+        userName: "",
+        email: "",
+        password: ""
+      });
     };
 
 
