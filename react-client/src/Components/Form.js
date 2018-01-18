@@ -2,11 +2,9 @@ import React, { Component } from 'react';
 
 export default class Form extends Component {
   state = {
-    firstName: "",
-    lastName: "",
-    userName: "",
+    name: "",
     email: "",
-    password: ""
+    text: ""
   };
     change = e => {
       this.setState({
@@ -18,11 +16,9 @@ export default class Form extends Component {
       e.preventDefault();
       this.props.onSubmit(this.state);
       this.setState({
-        firstName: "",
-        lastName: "",
-        userName: "",
-        email: "",
-        password: ""
+        name: "",
+        emailAddress: "",
+        text: ""
       });
     };
 
@@ -31,37 +27,23 @@ export default class Form extends Component {
     return (
       <form>
         <input
-        name="firstName"
-        placeholder='FirstName'
-        value={this.state.firstName}
+        name="name"
+        placeholder='Name'
+        value={this.state.name}
         onChange={e => this.change(e)}
         />
         <br />
         <input
-        name="lastName"
-        placeholder='LastName'
-        value={this.state.lastName}
+        name="emailAddress"
+        placeholder='Email address'
+        value={this.state.emailAddress}
         onChange={e => this.change(e)}
         />
         <br />
         <input
-        name="userName"
-        placeholder='UserName'
-        value={this.state.userName}
-        onChange={e => this.change(e)}
-        />
-        <br />
-        <input
-        name="email"
-        placeholder='Email'
-        value={this.state.email}
-        onChange={e => this.change(e)}
-        />
-        <br />
-        <input
-        name="password"
-        placeholder='Password'
-        value={this.state.password}
+        name="text"
+        placeholder='Message'
+        value={this.state.text}
         onChange={e => this.change(e)}
         />
         <br />
