@@ -8,8 +8,6 @@ export default class Form extends Component {
     email: "",
     password: ""
   };
-
-
     change = e => {
       this.setState({
           [e.target.name]: e.target.value
@@ -18,7 +16,7 @@ export default class Form extends Component {
 
     onSubmit = (e) => {
       e.preventDefault();
-      console.log(this.state);
+      this.props.onSubmit(this.state);  /// set.State?
     };
 
 
