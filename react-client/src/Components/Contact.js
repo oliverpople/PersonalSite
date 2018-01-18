@@ -2,16 +2,19 @@ import React, { Component } from 'react';
 import Form from "./Form";
 
 class Contact extends Component {
+  state = {
+    formValues: {}
+  }
 
-  onSubmit = values => {
-    console.log("Contact component: ", values);
+  onSubmit = formvalues => {
+    console.log("Contact component received: ", formValues);
   }
 
   render() {
     return (
         <div className='title'>
           Contact
-          <Form onSubmit={values => this.onSubmit(values)} />
+          <Form onSubmit={formValues => this.onSubmit(formValues)} />
         </div>
     )
   }
