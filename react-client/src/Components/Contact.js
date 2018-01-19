@@ -6,7 +6,7 @@ class Contact extends Component {
     formValues: {}
   }
 
-  onSubmit = formvalues => {
+  onSubmit = formValues => {
     console.log("Contact component received: ", formValues);
   }
 

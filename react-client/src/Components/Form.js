@@ -1,9 +1,10 @@
 import React, { Component } from 'react';
+import $ from 'jquery';
 
 export default class Form extends Component {
   state = {
     name: "",
-    email: "",
+    emailAddress: "",
     text: ""
   };
     change = e => {
@@ -13,13 +14,34 @@ export default class Form extends Component {
     };
 
     onSubmit = (e) => {
+
       e.preventDefault();
+
       this.props.onSubmit(this.state);
+
+      var data = {
+        name: this.state.name,
+        emailAddress: this.state.emailAddress,
+        text: this.state.text
+      }
+
+      $.ajax({
+        type: 'POST',
+        url: '/',
+        dataType: 'json',
+        data: data,
+        success: function (data) {
+                console.log('Submission was successful.');
+                console.log(data); // keep?
+              }
+      })
+
       this.setState({
         name: "",
         emailAddress: "",
         text: ""
       });
+
     };
 
 
