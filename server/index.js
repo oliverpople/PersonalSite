@@ -13,7 +13,11 @@ app.get('*', (req, res) => {
   res.sendFile(path.resolve(`${__dirname}/../react-client/dist/index.html`));
 });
 
-app.post('/', function(req, res) {
+app.post('/contact', function(req, res) {
+
+  console.log("nodemailer request body", req.body);      // JSON
+  res.send(req.body);  // echo the result back
+
       //// node mailer
 
         let transporter = nodemailer.createTransport({
@@ -27,8 +31,8 @@ app.post('/', function(req, res) {
         let mailOptions = {
           from: '"Ollie nodemailer" <oliverpoplenodemail@gmail.com>',
           to: 'oliverpople@gmail.com',
-          subject: 'Hello ✔',
-          text: req.body.name,
+          subject: req.body.name + ' ' + req.body.emailAddress,
+          text: req.body.text,
           html: req.body.text
         };
 

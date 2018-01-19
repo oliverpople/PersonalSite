@@ -1,5 +1,8 @@
 import React, { Component } from 'react';
 import $ from 'jquery';
+window.jQuery = $;
+window.$ = $;
+global.jQuery = $;
 
 export default class Form extends Component {
   state = {
@@ -19,7 +22,7 @@ export default class Form extends Component {
 
       this.props.onSubmit(this.state);
 
-      var data = {
+      var formdata = {
         name: this.state.name,
         emailAddress: this.state.emailAddress,
         text: this.state.text
@@ -27,14 +30,15 @@ export default class Form extends Component {
 
       $.ajax({
         type: 'POST',
-        url: '/',
+        url: '/contact',
+        data: JSON.stringify(formdata),
+        contentType:"application/json; charset=utf-8",
         dataType: 'json',
-        data: data,
         success: function (data) {
-                console.log('Submission was successful.');
-                console.log(data); // keep?
+                console.log('Contact json submission was successful.');
+                console.log('ajax fomrdata', data); // keep?
               }
-      })
+      });
 
       this.setState({
         name: "",
