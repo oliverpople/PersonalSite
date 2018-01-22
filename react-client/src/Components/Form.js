@@ -1,8 +1,5 @@
 import React, { Component } from 'react';
 import $ from 'jquery';
-window.jQuery = $;
-window.$ = $;
-global.jQuery = $;
 
 export default class Form extends Component {
   state = {
@@ -10,6 +7,7 @@ export default class Form extends Component {
     emailAddress: "",
     text: ""
   };
+  
     change = e => {
       this.setState({
           [e.target.name]: e.target.value

@@ -6,6 +6,8 @@ class Footer extends Component {
       <footer>
         <div>
           Footer component
+          <i class="fa fa-linkedin-square fa-2x" aria-hidden="true"></i>
+          <i class="fa fa-github-square fa-2x" aria-hidden="true"></i>
         </div>
       </footer>
     )
