@@ -8,7 +8,7 @@ class Experience extends Component {
     return (
       <div>
         <div className='title'>Experience</div>
-        <Timeline>
+        <Timeline id="timeLine">
           <TimelineEvent title="John Doe sent a SMS"
             icon={<i class="fa fa-briefcase" aria-hidden="true"></i>}
             container="card"

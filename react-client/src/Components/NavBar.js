@@ -7,7 +7,6 @@ class NavBar extends Component {
     return (
       <Sticky >
         <header>
-          <div id="headerButtons">
             <span className="navButton">
               <Link to="/#section1" className="navLink">
                 Home
@@ -23,7 +22,6 @@ class NavBar extends Component {
                 Experience
               </Link>
             </span>
-          </div>
         </header>
       </ Sticky>
     )

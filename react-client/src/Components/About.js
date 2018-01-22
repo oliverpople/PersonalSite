@@ -5,7 +5,6 @@ import Headshot from './bruges.jpg';
 class About extends Component {
   render() {
     return (
-    <div>
       <div className='title'>
         About
         <img className='image' src={Headshot} />
@@ -13,7 +12,6 @@ class About extends Component {
           <Title />
         </div>
       </div>
-    </div>
     )
   }
 }

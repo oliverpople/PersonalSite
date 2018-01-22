@@ -4,11 +4,9 @@ import About from './About.js';
 import Experience from './Experience.js';
 import Contact from './Contact.js';
 import Landing from './Landing.js';
-import NavBar from './NavBar.js';
-
+import NavBar from './Navbar.js';
 
 class HomePage extends Component {
-
 
   componentDidMount() {
 		this.scrollToHash();
@@ -32,11 +30,11 @@ class HomePage extends Component {
     return (
 
       <div>
+        <NavBar />
         <div ref="section1">
           <Landing />
         </div>
         <div ref="section2">
-          <NavBar />
           <About />
         </div>
         <div ref="section3">
@@ -46,7 +44,7 @@ class HomePage extends Component {
           <Contact />
         </div>
       </div>
-
+      
     )
   }
 }
