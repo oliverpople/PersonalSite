@@ -1,13 +1,19 @@
 import React, { Component } from 'react';
-import Helvetica from './helvetica.jpg';
+import Title from "./title.js";
+import Headshot from './bruges.jpg';
 
 class About extends Component {
   render() {
     return (
+    <div>
       <div className='title'>
         About
-        <img className='image' src={Helvetica} />
+        <img className='image' src={Headshot} />
+        <div id='titleBoxContainer'>
+          <Title />
+        </div>
       </div>
+    </div>
     )
   }
 }

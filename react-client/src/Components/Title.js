@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 class Title extends Component {
   render() {
     return (
-      <div id='titleBox'>
+      <div id='titleBoxContent'>
           <a>Title / intro message goes here</a>
       </div>
     )

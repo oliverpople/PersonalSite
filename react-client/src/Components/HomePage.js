@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
-import Title from "./title.js";
-import Headshot from './bruges.jpg';
 import About from './About.js';
 import Experience from './Experience.js';
 import Contact from './Contact.js';
+import Landing from './Landing.js';
+import NavBar from './NavBar.js';
 
 
 class HomePage extends Component {
@@ -33,10 +33,10 @@ class HomePage extends Component {
 
       <div>
         <div ref="section1">
-            <img className='image' src={Headshot} />
-            <Title />
+          <Landing />
         </div>
         <div ref="section2">
+          <NavBar />
           <About />
         </div>
         <div ref="section3">
