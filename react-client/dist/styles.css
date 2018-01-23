@@ -100,3 +100,12 @@ body {
   font-family: "Roboto Slab", "Helvetica Neue", Helvetica, Arial, sans-serif;
   */
 }
+
+a {
+  text-decoration:none;
+  color: white;
+}
+
+form {
+  left: 10%;
+}
