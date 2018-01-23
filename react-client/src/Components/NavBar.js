@@ -13,13 +13,18 @@ class NavBar extends Component {
               </Link>
             </span>
             <span className="navButton">
-              <Link to="/#section2" className="navLink">
-                About
+              <Link to="/#section4" className="navLink">
+                Contact
               </Link>
             </span>
             <span className="navButton">
               <Link to="/#section3" className="navLink">
                 Experience
+              </Link>
+            </span>
+            <span className="navButton">
+              <Link to="/#section2" className="navLink">
+                About
               </Link>
             </span>
         </header>

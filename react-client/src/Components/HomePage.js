@@ -40,7 +40,7 @@ class HomePage extends Component {
         <div ref="section3">
           <Experience />
         </div>
-        <div ref="section3">
+        <div ref="section4">
           <Contact />
         </div>
       </div>
