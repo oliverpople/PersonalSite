@@ -7,7 +7,11 @@ class Experience extends Component {
   render() {
     return (
       <div>
-        <div className='title'>Experience</div>
+        <div className='titleContainer'>
+          <div className='titleText'>
+            Experience
+          </div>
+        </div>
         <Timeline id="timeLine">
           <TimelineEvent title="John Doe sent a SMS"
             icon={<i class="fa fa-briefcase" aria-hidden="true"></i>}

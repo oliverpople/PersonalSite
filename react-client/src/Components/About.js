@@ -5,8 +5,10 @@ import Headshot from './bruges.jpg';
 class About extends Component {
   render() {
     return (
-      <div className='title'>
-        About
+      <div className='titleContainer'>
+        <div className='titleText'>
+          About
+        </div>
         <img className='image' src={Headshot} />
         <div id='titleBoxContainer'>
           <Title />

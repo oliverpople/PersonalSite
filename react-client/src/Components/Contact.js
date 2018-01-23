@@ -12,8 +12,10 @@ class Contact extends Component {
 
   render() {
     return (
-        <div className='title'>
-          Contact
+        <div className='titleContainer'>
+          <div className='titleText'>
+            Contact
+          </div>
           <Form onSubmit={formValues => this.onSubmit(formValues)} />
         </div>
     )

@@ -30,11 +30,11 @@ class HomePage extends Component {
     return (
 
       <div>
-        <NavBar />
         <div ref="section1">
           <Landing />
         </div>
         <div ref="section2">
+        <NavBar />
           <About />
         </div>
         <div ref="section3">
