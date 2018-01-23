@@ -44,7 +44,7 @@ class HomePage extends Component {
           <Contact />
         </div>
       </div>
-      
+
     )
   }
 }
