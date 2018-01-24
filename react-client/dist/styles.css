@@ -1,18 +1,11 @@
-header {
-  display: block;
-  background-color: black;
-  width: 100%;
-  height: 45px;
-  color: white;
-  z-index: 1;
-}
+/* Landing page section */
 
-#landingContainer{
+#landingContainer {
   height: 100vh;
   background: black;
 }
 
-#landingContent{
+#landingContent {
   position: absolute;
   color: white;
   top: 45%;
@@ -24,23 +17,15 @@ header {
   z-index: 0;
 }
 
-.titleContainer {
-  position: relative;
+/* navbar */
+
+header {
+  display: block;
   background-color: black;
-  z-index: 0;
-}
-
-.titleText {
-  font: Helvetica;
-  font-size: 18px;
+  width: 100%;
+  height: 45px;
   color: white;
-  text-align: center;
-  background-color: #cc0000;
-  padding: 5px;
-}
-
-#timeLine {
-  z-index: -1;
+  z-index: 2;
 }
 
 .navButton {
@@ -56,7 +41,32 @@ header {
   top: 50%;
 }
 
-#titleBoxContainer {
+/* Section titles */
+
+.titleContainer {
+  position: relative;
+  background-color: black;
+  z-index: -1;
+}
+
+.titleText {
+  font: Helvetica;
+  font-size: 18px;
+  color: white;
+  text-align: center;
+  background-color: #cc0000;
+  padding: 5px;
+}
+
+/* Experience  */
+
+#timeLine {
+  z-index: -1;
+}
+
+/* Bio */
+
+#bioBoxContainer {
   position: absolute;
   top: 50%;
   left: 10%;
@@ -66,15 +76,18 @@ header {
   font-size: 18px;
 }
 
-#titleBoxContent {
+#bioBoxContent {
   text-align: center;
   font: helvetica;
   border: 3px solid white;
   padding: 10px;
 }
 
-form {
 
+/* Contact */
+
+#contactContainer {
+  z-index: 1;
 }
 
 .formInput {
@@ -84,7 +97,6 @@ form {
   margin: 12px 20px;
 }
 
-
 #textField {
   height: 200px;
 }
@@ -93,6 +105,9 @@ form {
   width: 10%;
   margin: 12px 20px;
 }
+
+
+/* footer */
 
 footer {
   display: block;
@@ -106,6 +121,8 @@ footer {
   position: absolute;
 
 }
+
+/* General */
 
 h1 {
   font-size: 30px;

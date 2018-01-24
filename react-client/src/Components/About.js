@@ -10,7 +10,7 @@ class About extends Component {
           About
         </div>
         <img className='image' src={Headshot} />
-        <div id='titleBoxContainer'>
+        <div id='bioBoxContainer'>
           <Bio />
         </div>
       </div>

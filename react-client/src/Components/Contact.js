@@ -12,7 +12,7 @@ class Contact extends Component {
 
   render() {
     return (
-        <div className='titleContainer'>
+        <div className='titleContainer' id='contactContainer'>
           <div className='titleText'>
             Contact
           </div>
