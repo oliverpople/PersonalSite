@@ -17,7 +17,7 @@ header {
   color: white;
   top: 45%;
   left: 47.5%;
-  width: 5%;
+  width: 20px;
   text-align: left;
   vertical-align: middle;
   background-color: #cc0000;
@@ -26,8 +26,8 @@ header {
 
 .titleContainer {
   position: relative;
-  background-color: #cc0000;
-  z-index: -1;
+  background-color: black;
+  z-index: 0;
 }
 
 .titleText {
@@ -73,6 +73,27 @@ header {
   padding: 10px;
 }
 
+form {
+
+}
+
+.formInput {
+  left: 50%;
+  right: 10%;
+  width: 40%;
+  margin: 12px 20px;
+}
+
+
+#textField {
+  height: 200px;
+}
+
+#submitButton {
+  width: 10%;
+  margin: 12px 20px;
+}
+
 footer {
   display: block;
   width: 100%;
@@ -104,8 +125,4 @@ body {
 a {
   text-decoration:none;
   color: white;
-}
-
-form {
-  left: 10%;
 }

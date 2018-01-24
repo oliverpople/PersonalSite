@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import Title from "./title.js";
+import Bio from "./Bio.js";
 import Headshot from './bruges.jpg';
 
 class About extends Component {
@@ -11,7 +11,7 @@ class About extends Component {
         </div>
         <img className='image' src={Headshot} />
         <div id='titleBoxContainer'>
-          <Title />
+          <Bio />
         </div>
       </div>
     )

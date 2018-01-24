@@ -7,7 +7,7 @@ export default class Form extends Component {
     emailAddress: "",
     text: ""
   };
-  
+
     change = e => {
       this.setState({
           [e.target.name]: e.target.value
@@ -49,29 +49,34 @@ export default class Form extends Component {
 
   render() {
     return (
+
       <form>
         <input
+        className="formInput"
         name="name"
-        placeholder='Name'
+        placeholder='Your name...'
         value={this.state.name}
         onChange={e => this.change(e)}
         />
         <br />
         <input
+        className="formInput"
         name="emailAddress"
-        placeholder='Email address'
+        placeholder='Your email address...'
         value={this.state.emailAddress}
         onChange={e => this.change(e)}
         />
         <br />
         <input
+        className="formInput"
+        id='textField'
         name="text"
-        placeholder='Message'
+        placeholder='Your message...'
         value={this.state.text}
         onChange={e => this.change(e)}
         />
         <br />
-        <button onClick={e => this.onSubmit(e)}>Submit</button>
+        <button id="submitButton" onClick={e => this.onSubmit(e)}>Submit</button>
       </form>
     );
   }

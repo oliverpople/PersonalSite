@@ -16,7 +16,7 @@ class Contact extends Component {
           <div className='titleText'>
             Contact
           </div>
-          <Form onSubmit={formValues => this.onSubmit(formValues)} />
+            <Form onSubmit={formValues => this.onSubmit(formValues)} />
         </div>
     )
   }
