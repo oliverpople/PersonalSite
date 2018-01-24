@@ -94,6 +94,7 @@ form {
   padding: 30px;
   left: 10%;
   right: 10%;
+  width: 90%;
 }
 
 #formMessageField {
@@ -101,8 +102,9 @@ form {
 }
 
 #submitButton {
-  width: 10%;
+  width: 20%;
   margin: 12px;
+  padding: 5px;
 }
 
 .formInput {
@@ -118,11 +120,16 @@ footer {
   height: 50px;
   background-color: black;
   color: white;
+  padding: 0px 30px 30px 30px;
 }
 
-.iconLinksContainer {
-  position: absolute;
+.footerContentContainer {
+  width: 50%;
+  padding: 0px 0px 0px 12px;
+}
 
+#copyright {
+  font-size: 12px;
 }
 
 /* General */

@@ -8,7 +8,7 @@ class Experience extends Component {
       <div>
         <div className='titleContainer'>
           <div className='titleText'>
-            Experience
+            EXPERIENCE
           </div>
         </div>
         <Timeline id="timeLine">

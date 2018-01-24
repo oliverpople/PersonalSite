@@ -14,7 +14,7 @@ class Contact extends Component {
     return (
         <div className='titleContainer' id='contactContainer'>
           <div className='titleText'>
-            Contact
+            GET IN TOUCH
           </div>
             <Form onSubmit={formValues => this.onSubmit(formValues)} />
         </div>

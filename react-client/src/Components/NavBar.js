@@ -9,22 +9,22 @@ class NavBar extends Component {
         <header>
             <span className="navButton">
               <Link to="/#section1" className="navLink">
-                Home
+                HOME
               </Link>
             </span>
             <span className="navButton">
               <Link to="/#section4" className="navLink">
-                Contact
+                CONTACT
               </Link>
             </span>
             <span className="navButton">
               <Link to="/#section3" className="navLink">
-                Experience
+                EXPERIENCE
               </Link>
             </span>
             <span className="navButton">
               <Link to="/#section2" className="navLink">
-                About
+                ABOUT
               </Link>
             </span>
         </header>

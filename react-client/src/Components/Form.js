@@ -76,7 +76,7 @@ export default class Form extends Component {
         onChange={e => this.change(e)}
         />
         <br />
-        <button id="submitButton" onClick={e => this.onSubmit(e)}>Submit</button>
+        <button id="submitButton" onClick={e => this.onSubmit(e)}>Send Message</button>
       </form>
     );
   }
