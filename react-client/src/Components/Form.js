@@ -54,7 +54,7 @@ export default class Form extends Component {
         <input
         className="formInput"
         name="name"
-        placeholder='Your name...'
+        placeholder='NAME'
         value={this.state.name}
         onChange={e => this.change(e)}
         />
@@ -62,16 +62,16 @@ export default class Form extends Component {
         <input
         className="formInput"
         name="emailAddress"
-        placeholder='Your email address...'
+        placeholder='EMAIL'
         value={this.state.emailAddress}
         onChange={e => this.change(e)}
         />
         <br />
-        <input
+        <textarea
         className="formInput"
-        id='textField'
+        id='formMessageField'
         name="text"
-        placeholder='Your message...'
+        placeholder='MESSAGE'
         value={this.state.text}
         onChange={e => this.change(e)}
         />
