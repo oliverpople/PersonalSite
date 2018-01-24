@@ -7,7 +7,7 @@ class NavBar extends Component {
     return (
       <Sticky >
         <header>
-            <span className="navButton">
+            <span className="navButton" id="homeButton">
               <Link to="/#section1" className="navLink">
                 HOME
               </Link>
