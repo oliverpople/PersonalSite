@@ -12,7 +12,7 @@ class Experience extends Component {
           </div>
         </div>
         <Timeline id="timeLine">
-          <TimelineEvent title="Makers Academy | (Sept 2017 - Dec 2017)"
+          <TimelineEvent className='timelineEvents' id='makersEvent' title="Makers Academy | (Sept 2017 - Dec 2017)"
             icon={<i class="fa fa-graduation-cap" aria-hidden="true"></i>}
             container="card"
             iconColor="black"
@@ -24,10 +24,10 @@ class Experience extends Component {
             <li>Pair programming</li>
             <li>Agile/XP</li>
             <li>OOP</li>
-            <li>Ruby, Rails, JavaScript, node.js</li>
+            <li>Ruby, Rails, JavaScript, Node.js</li>
             <li>RSpec, Jasmine</li>
           </TimelineEvent>
-          <TimelineEvent title="Creative Brand Strategist, Grey London | (Apr 2014 - Aug 2017)"
+          <TimelineEvent className='timelineEvents'title="Creative Brand Strategist, Grey London | (Apr 2014 - Aug 2017)"
             icon={<i class="fa fa-briefcase" aria-hidden="true"></i>}
             container="card"
             iconColor="black"
@@ -41,7 +41,7 @@ class Experience extends Component {
             <li>Measuring the effectiveness of campaigns through the line.</li>            <li>Writing several award-winning papers on campaign strategy and effectiveness for Sixt UK. Including, an APG Award, Silver IPA Award and Silver UK Effie.</li>
             <li>Working on several winning new Business pitches including Jacobs crackers and Emirates Airlines.</li>
           </TimelineEvent>
-          <TimelineEvent title="Design Kit: in partnership with IDEO.ORG | (April 2016 – May 2016)"
+          <TimelineEvent className='timelineEvents' title="Design Kit: in partnership with IDEO.ORG | (April 2016 – May 2016)"
             icon={<i class="fa fa-graduation-cap" aria-hidden="true"></i>}
             container="card"
             iconColor="black"
@@ -50,7 +50,7 @@ class Experience extends Component {
           >
             <li>The Course for Human-Centered Design: Certified</li>
           </TimelineEvent>
-          <TimelineEvent title="Institute of Practitioners in Advertising | (Feb 2015)"
+          <TimelineEvent className='timelineEvents' title="Institute of Practitioners in Advertising | (Feb 2015)"
             icon={<i class="fa fa-graduation-cap" aria-hidden="true"></i>}
             container="card"
             iconColor="black"
@@ -59,7 +59,7 @@ class Experience extends Component {
           >
             <li>IPA Foundation Certificate: Distinction</li>
           </TimelineEvent>
-          <TimelineEvent title="Marketing Agencies Association (MAA) | (Feb 2013 – Sept 2013)"
+          <TimelineEvent className='timelineEvents' title="Marketing Agencies Association (MAA) | (Feb 2013 – Sept 2013)"
             icon={<i class="fa fa-graduation-cap" aria-hidden="true"></i>}
             container="card"
             iconColor="black"
@@ -68,7 +68,7 @@ class Experience extends Component {
           >
             <li>MAA Diploma in Integrated Marketing 2013: Distinction</li>
           </TimelineEvent>
-          <TimelineEvent title="Account Executive, iris Worldwide | (Jul 2012 - Sept 2013)"
+          <TimelineEvent className='timelineEvents' title="Account Executive, iris Worldwide | (Jul 2012 - Sept 2013)"
             icon={<i class="fa fa-briefcase" aria-hidden="true"></i>}
             container="card"
             iconColor="black"
@@ -79,7 +79,7 @@ class Experience extends Component {
             <li>For PHILIPS Sound I developed a new content strategy that was better suited to the platform and successfully improved user engagement.</li>
             <li>For BPF’s I overlooked their entire rebranding and helped grew annual revenue by approximately 100%.</li>
           </TimelineEvent>
-          <TimelineEvent title="University of Nottingham | (Sept 2008 - July 2012)"
+          <TimelineEvent className='timelineEvents' title="University of Nottingham | (Sept 2008 - July 2012)"
             icon={<i class="fa fa-graduation-cap" aria-hidden="true"></i>}
             container="card"
             iconColor="black"
@@ -91,7 +91,7 @@ class Experience extends Component {
             <li>Winner of the Nottingham Student Venture Challenge 2012, where we pitched our idea to a panel of external judges. My partner and I were awarded a £1000 Entrepreneurial grant to develop our idea further.</li>
             <li>I also spent a lot of time in my room producing monotonous techno music with the sequencing software Ableton Live.</li>
           </TimelineEvent>
-          <TimelineEvent title="Clifton College, Bristol | (Sept 2002 – May 2007)"
+          <TimelineEvent className='timelineEvents' id='cliftonEvent' title="Clifton College, Bristol | (Sept 2002 – May 2007)"
             icon={<i class="fa fa-graduation-cap" aria-hidden="true"></i>}
             container="card"
             iconColor="black"

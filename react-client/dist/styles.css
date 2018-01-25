@@ -58,31 +58,40 @@ header {
   padding: 5px;
 }
 
+/* About */
+
+#aboutSection {
+
+  color: black;
+}
+
 /* Experience  */
 
 #timeLine {
   z-index: -1;
 }
 
+.timelineEvents {
+  margin: 0px 20px 0px 0px;
+}
+
+#makersEvent {
+  margin: 30px 20px 0px 0px;
+}
+
+#cliftonEvent {
+  margin: 0px 20px 20px 0px;
+}
+
 /* Bio */
 
-#bioBoxContainer {
-  position: absolute;
-  top: 50%;
-  left: 10%;
-  width: 40%;
-  background-color: none;
-  color: white;
-  font-size: 18px;
-}
-
 #bioBoxContent {
-  text-align: center;
+  text-align: left;
   font: helvetica;
-  border: 3px solid white;
-  padding: 10px;
+  font-size: 1.5vh;
+  padding: 28px;
+  color: black;
 }
-
 
 /* Contact */
 
@@ -97,6 +106,10 @@ form {
   width: 90%;
 }
 
+textarea {
+  font-family: helvetica;
+}
+
 #formMessageField {
   height: 200px;
 }
@@ -105,22 +118,25 @@ form {
   width: 20%;
   margin: 12px;
   padding: 5px;
+  font-size: 2vh;
+  background-color: white;
 }
 
 .formInput {
   width: 90%;
   margin: 12px 12px 12px 12px;
+  font-size: 2vh;
 }
 
 /* footer */
 
 footer {
   display: block;
-  width: 100%;
-  height: 50px;
+  width: auto;
   background-color: black;
   color: white;
   padding: 0px 30px 30px 30px;
+  font-size: 2vh;
 }
 
 .footerContentContainer {
@@ -129,13 +145,14 @@ footer {
 }
 
 #copyright {
-  font-size: 12px;
+  font-size: 2vh;
 }
 
 /* General */
 
 h1 {
-  font-size: 40px;
+  font-size: 7vw;
+  color: white;
 }
 
 img {
