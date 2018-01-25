@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import Bio from "./Bio.js";
 import Headshot from './bruges.jpg';
+import Profile from "./Profile.js";
 
 class About extends Component {
   render() {
@@ -9,7 +10,8 @@ class About extends Component {
         <div className='titleText'>
           ABOUT ME
         </div>
-        <img className='image' src={Headshot} />
+          <img className='image' src={Headshot} />
+          <Profile />
           <Bio />
       </div>
 

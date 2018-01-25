@@ -69,7 +69,6 @@ export default class Form extends Component {
         <br />
         <textarea
         className="formInput"
-        id='formMessageField'
         name="text"
         placeholder='MESSAGE'
         value={this.state.text}

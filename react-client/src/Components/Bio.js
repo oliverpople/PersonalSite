@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 
 class Bio extends Component {
+
   render() {
     return (
       <div id='bioBoxContent'>
@@ -22,8 +23,8 @@ class Bio extends Component {
          some things should be easier than they currently are. So I love building
          things which make our everyday lives work like magic...or simply just for
          the fun of it.</a>
-            <br></br>
-            <br></br>
+          <br></br>
+          <br></br>
       </div>
     )
   }

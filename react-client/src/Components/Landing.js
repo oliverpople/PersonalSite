@@ -6,7 +6,16 @@ class Landing extends Component {
     super(props);
 
     this.state={
-      messages:["Hello.           ", "Thanks for visiting.           ", "Let's take a scroll."],
+      messages:[
+        "Hello.           ",
+        "Thanks  ",
+        "for    ",
+        "visiting.           ",
+        "Let's   ",
+        "take  ",
+        "a  ",
+        "scroll."
+      ],
       index:0,
       erase:1
     }
@@ -43,7 +52,7 @@ class Landing extends Component {
             onTypingEnd={this.typeIsDone.bind(this)}
             initDelay={2000}
             typing={this.state.erase}>
-            <h1>{this.state.messages[this.state.index]}</h1>
+            <h2>{this.state.messages[this.state.index]}</h2>
           </TypeWriter>
         </div>
       </div>

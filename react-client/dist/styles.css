@@ -8,8 +8,8 @@
 #landingContent {
   position: absolute;
   color: white;
-  top: 45%;
-  left: 47.5%;
+  top: 42%;
+  left: 40%;
   width: 20px;
   text-align: left;
   vertical-align: middle;
@@ -61,7 +61,25 @@ header {
 /* About */
 
 #aboutSection {
+  color: black;
+}
 
+#profileContainer {
+  height: 30%;
+  position: absolute;
+  vertical-align;
+  top: 300px;
+  left: 30px;
+  z-index: 1;
+}
+
+/* Bio */
+
+#bioBoxContent {
+  text-align: left;
+  font: helvetica;
+  font-size: 1.5vw;
+  padding: 28px;
   color: black;
 }
 
@@ -83,15 +101,6 @@ header {
   margin: 0px 20px 20px 0px;
 }
 
-/* Bio */
-
-#bioBoxContent {
-  text-align: left;
-  font: helvetica;
-  font-size: 1.5vh;
-  padding: 28px;
-  color: black;
-}
 
 /* Contact */
 
@@ -104,18 +113,16 @@ form {
   left: 10%;
   right: 10%;
   width: 90%;
+  max-width: 700px;
 }
 
 textarea {
   font-family: helvetica;
-}
-
-#formMessageField {
   height: 200px;
 }
 
 #submitButton {
-  width: 20%;
+  width: 50%;
   margin: 12px;
   padding: 5px;
   font-size: 2vh;
@@ -155,15 +162,32 @@ h1 {
   color: white;
 }
 
+h2 {
+  font-size: 7vw;
+  color: white;
+}
+
+h3 {
+  font-size: 3vw;
+  color: white;
+  text-align: left;
+}
+
 img {
+  position: relative;
   display: block;
   width: 100%;
   height: auto;
+  opacity: 0.7;
 }
 
 body {
   font-family: "Roboto Slab", "Helvetica Neue", Helvetica, Arial, sans-serif;
   */
+}
+
+Button {
+  z-index: 2;
 }
 
 a {
