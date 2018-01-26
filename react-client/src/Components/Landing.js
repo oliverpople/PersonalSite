@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import TypeWriter from 'react-typewriter';
+import ScrollArrow from './ScrollArrow';
 
 class Landing extends Component {
   constructor(props) {
@@ -7,17 +8,11 @@ class Landing extends Component {
 
     this.state={
       messages:[
+        "Bonjour.           ",
         "Hello.           ",
-        "Thanks  ",
-        "for    ",
-        "visiting.           ",
-        "Let's   ",
-        "take  ",
-        "a  ",
-        "scroll."
       ],
       index:0,
-      erase:1
+      erase:1,
     }
   }
 
@@ -55,6 +50,7 @@ class Landing extends Component {
             <h2>{this.state.messages[this.state.index]}</h2>
           </TypeWriter>
         </div>
+          <ScrollArrow />
       </div>
     )
   }

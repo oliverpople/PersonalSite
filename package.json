@@ -32,6 +32,7 @@
     "jquery": "^3.3.1",
     "nodemailer": "^4.4.2",
     "react": "^16.2.0",
+    "react-delay-render": "^0.1.2",
     "react-dom": "^16.2.0",
     "react-event-timeline": "^1.4.1",
     "react-router": "^4.2.0",
