@@ -12,8 +12,8 @@ class About extends Component {
           <img className='image' src={Headshot} />
           <Bio />
       </div>
-
     )
   }
 }
+
 export default About;

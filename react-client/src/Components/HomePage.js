@@ -17,18 +17,17 @@ class HomePage extends Component {
 	}
 
 	scrollToHash() {
-	    let hash = this.props.location.hash.replace('#', '');
-	    if (hash) {
-	        let node = ReactDOM.findDOMNode(this.refs[hash]);
+	  let hash = this.props.location.hash.replace('#', '');
+	  if (hash) {
+	     let node = ReactDOM.findDOMNode(this.refs[hash]);
 	        if (node) {
-	            node.scrollIntoView();
+	           node.scrollIntoView();
 	        }
 	    }
 	}
 
   render() {
     return (
-
       <div>
         <div ref="section1">
           <Landing />
@@ -44,8 +43,9 @@ class HomePage extends Component {
           <Contact />
         </div>
       </div>
-
     )
   }
+
 }
+
 export default HomePage;

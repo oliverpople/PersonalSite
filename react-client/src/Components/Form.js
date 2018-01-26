@@ -33,9 +33,9 @@ export default class Form extends Component {
         contentType:"application/json; charset=utf-8",
         dataType: 'json',
         success: function (data) {
-                console.log('Contact json submission was successful.');
-                console.log('ajax fomrdata', data); // keep?
-              }
+          console.log('Contact json submission was successful.');
+          console.log('ajax fomrdata', data); // keep?
+        }
       });
 
       this.setState({
@@ -49,7 +49,6 @@ export default class Form extends Component {
 
   render() {
     return (
-
       <form>
         <input
         className="formInput"
@@ -79,4 +78,5 @@ export default class Form extends Component {
       </form>
     );
   }
+
 }

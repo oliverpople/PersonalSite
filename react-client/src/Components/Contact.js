@@ -12,12 +12,12 @@ class Contact extends Component {
 
   render() {
     return (
-        <div className='titleContainer' id='contactContainer'>
-          <div className='titleText'>
-            GET IN TOUCH
-          </div>
-            <Form onSubmit={formValues => this.onSubmit(formValues)} />
+      <div className='titleContainer' id='contactContainer'>
+        <div className='titleText'>
+          GET IN TOUCH
         </div>
+        <Form onSubmit={formValues => this.onSubmit(formValues)} />
+      </div>
     )
   }
 }

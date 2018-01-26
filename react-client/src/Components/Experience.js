@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
-import Helvetica from './helvetica.jpg';
 import {Timeline, TimelineEvent} from 'react-event-timeline';
 
 class Experience extends Component {
+
   render() {
     return (
       <div>

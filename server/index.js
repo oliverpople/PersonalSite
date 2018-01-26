@@ -20,33 +20,32 @@ app.post('/contact', function(req, res) {
 
       //// node mailer
 
-        let transporter = nodemailer.createTransport({
-          service: 'Gmail',
-          auth: {
-            user: process.env.GMAIL_USER,
-            pass: process.env.GMAIL_PASS
-          }
-        });
+  let transporter = nodemailer.createTransport({
+    service: 'Gmail',
+    auth: {
+      user: process.env.GMAIL_USER,
+      pass: process.env.GMAIL_PASS
+    }
+  });
 
-        let mailOptions = {
-          from: '"Ollie nodemailer" <oliverpoplenodemail@gmail.com>',
-          to: 'oliverpople@gmail.com',
-          subject: req.body.name + ' ' + req.body.emailAddress,
-          text: req.body.text,
-          html: req.body.text
-        };
+  let mailOptions = {
+    from: '"Ollie nodemailer" <oliverpoplenodemail@gmail.com>',
+    to: 'oliverpople@gmail.com',
+    subject: req.body.name + ' ' + req.body.emailAddress,
+    text: req.body.text,
+    html: req.body.text
+  };
 
-        transporter.sendMail(mailOptions, (error, info) => {
-          if (error) {
-            return console.log(error);
-          }
-          console.log('Message sent: %s', info.messageId); // keep?
-          console.log('Preview URL: %s', nodemailer.getTestMessageUrl(info)); // keep?
-        });
-
-
+  transporter.sendMail(mailOptions, (error, info) => {
+    if (error) {
+      return console.log(error);
+    }
+    console.log('Message sent: %s', info.messageId); // keep?
+    console.log('Preview URL: %s', nodemailer.getTestMessageUrl(info)); // keep?
     });
 
-    app.listen(PORT, () => {
-      console.log(`listening on port ${PORT}!`);
-    });
+});
+
+app.listen(PORT, () => {
+  console.log(`listening on port ${PORT}!`);
+});

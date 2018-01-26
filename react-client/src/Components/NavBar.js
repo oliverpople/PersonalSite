@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import { Sticky } from 'semantic-ui-react';
 
 class NavBar extends Component {
+
   render() {
     return (
       <Sticky >
@@ -31,6 +32,7 @@ class NavBar extends Component {
       </ Sticky>
     )
   }
+
 }
 
 export default NavBar;

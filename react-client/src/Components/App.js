@@ -4,7 +4,6 @@ import { browserHistory } from 'react-router';
 import HomePage from './HomePage.js';
 import Footer from './Footer.js';
 
-
 class App extends Component {
   render() {
     return (

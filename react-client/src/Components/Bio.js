@@ -5,11 +5,9 @@ class Bio extends Component {
   render() {
     return (
       <div id='bioBoxContent'>
-
         <a>Name: Oliver Pople</a>
         <br></br>
         <a>Email: oliverpople@gmail.com</a>
-
         <h1>WHY TECH?</h1>
         <br></br>
         <a>When friends ask me what programming is, I say it's the closest thing
@@ -38,4 +36,5 @@ class Bio extends Component {
     )
   }
 }
+
 export default Bio;
