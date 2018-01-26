@@ -1,62 +1,214 @@
+/* Landing page section */
+
+#landingContainer {
+  height: 100vh;
+  background: black;
+}
+
+#landingContent {
+  position: absolute;
+  color: white;
+  top: 42%;
+  left: 40%;
+  width: 20px;
+  text-align: left;
+  vertical-align: middle;
+  background-color: #cc0000;
+  z-index: 0;
+}
+
+/* Scroll Arrow  */
+
+.arrow {
+  position: absolute;
+  text-align: center;
+  bottom: 0;
+  left: 48%;
+
+}
+.bounce {
+  -moz-animation: bounce 2s infinite;
+  -webkit-animation: bounce 2s infinite;
+  animation: bounce 2s infinite;
+}
+
+@keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-30px);
+  }
+  60% {
+    transform: translateY(-15px);
+  }
+}
+
+/* navbar */
+
 header {
   display: block;
   background-color: black;
   width: 100%;
-  height: 50px;
+  height: 45px;
   color: white;
-}
-
-.title {
-  font: Helvetica;
-  text-align: center;
-  background-color: red;
-}
-
-#headerButtons {
-  width: 100%;
-  height: 50px;
-  margin: 0;
+  z-index: 2;
 }
 
 .navButton {
   float: right;
   margin: 10px;
-  padding: 50px, 0;
+  top: 50%;
 }
 
 .navLink {
   color: white;
   font-size: 18px;
   text-decoration: none;
+  top: 50%;
 }
 
-#titleBox {
-  position: absolute;
-  top: 50%;
-  left: 10%;
-  width: 40%;
-  padding: 10px;
-  background-color: none;
+/* Section titles */
+
+.titleContainer {
+  position: relative;
+  background-color: black;
+  z-index: -1;
+}
+
+.titleText {
+  font: Helvetica;
+  font-size: 18px;
   color: white;
   text-align: center;
-  border: 3px solid white;
+  background-color: #cc0000;
+  padding: 5px;
 }
+
+/* About */
+
+#aboutSection {
+  color: black;
+}
+
+/* Bio */
+
+#bioBoxContent {
+  text-align: left;
+  font: helvetica;
+  font-size: 1.5vw;
+  padding: 28px;
+  color: black;
+}
+
+/* Experience  */
+
+#timeLine {
+  z-index: -1;
+}
+
+.timelineEvents {
+  margin: 0px 20px 0px 0px;
+}
+
+#makersEvent {
+  margin: 30px 20px 0px 0px;
+}
+
+#cliftonEvent {
+  margin: 0px 20px 20px 0px;
+}
+
+
+/* Contact */
+
+#contactContainer {
+  z-index: 1;
+}
+
+form {
+  padding: 30px;
+  left: 10%;
+  right: 10%;
+  width: 90%;
+  max-width: 700px;
+}
+
+textarea {
+  font-family: helvetica;
+  height: 200px;
+}
+
+#submitButton {
+  width: 50%;
+  margin: 12px;
+  padding: 5px;
+  font-size: 2vh;
+  background-color: white;
+}
+
+.formInput {
+  width: 90%;
+  margin: 12px 12px 12px 12px;
+  font-size: 2vh;
+}
+
+/* footer */
 
 footer {
   display: block;
-  width: 100%;
-  height: 50px;
+  width: auto;
   background-color: black;
+  color: white;
+  padding: 0px 30px 30px 30px;
+  font-size: 2vh;
+}
+
+.footerContentContainer {
+  width: 50%;
+  padding: 0px 0px 0px 12px;
+}
+
+#copyright {
+  font-size: 2vh;
+}
+
+/* General */
+
+h1 {
+  font-size: 7vw;
   color: white;
 }
 
+h2 {
+  font-size: 7vw;
+  color: white;
+}
+
+h3 {
+  font-size: 3vw;
+  color: white;
+  text-align: left;
+}
+
 img {
+  position: relative;
   display: block;
   width: 100%;
   height: auto;
+  opacity: 0.8;
 }
 
 body {
   font-family: "Roboto Slab", "Helvetica Neue", Helvetica, Arial, sans-serif;
   */
+}
+
+button {
+  z-index: 2;
+}
+
+a {
+  text-decoration:none;
+  color: white;
 }
