@@ -1,7 +1,7 @@
 {
   "name": "personalsite",
   "version": "1.0.0",
-  "engine": {
+  "engines": {
     "node": "8.9.1"
   },
   "description": "",
