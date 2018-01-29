@@ -1,6 +1,9 @@
 {
   "name": "personalsite",
   "version": "1.0.0",
+  "engine": {
+    "node": "8.9.1"
+  },
   "description": "",
   "main": "index.js",
   "scripts": {
