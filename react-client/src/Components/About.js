@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import Bio from "./Bio.js";
-import Headshot from './bruges.jpg';
+import Headshot from './images/bruges.jpg';
 
 class About extends Component {
   render() {

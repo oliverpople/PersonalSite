@@ -19,12 +19,16 @@ module.exports = {
         loader: 'style-loader!css-loader'
       },
       {
-        test: /\.png$/,
-        loader: 'url-loader?limit=100000&minetype=image/png'
-      },
-      {
-        test: /\.jpg$/,
-        loader: 'file-loader'
+        test:  /\.(gif|png|jpe?g|svg)$/i,
+        use: [
+          'file-loader',
+          {
+            loader: 'image-webpack-loader',
+            options: {
+              bypassOnDebug: true,
+            },
+          },
+        ],
       },
       {
         test: /\.jsx?$/,
