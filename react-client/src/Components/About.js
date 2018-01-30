@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import Bio from "./Bio.js";
-import Headshot from './images/bruges.jpg';
 
 class About extends Component {
   render() {
@@ -9,7 +8,7 @@ class About extends Component {
         <div className='titleText'>
           ABOUT ME
         </div>
-          <img className='image' src={Headshot} />
+          <img className='image' src={require("../images/bruges.jpg")} />
           <Bio />
       </div>
     )
