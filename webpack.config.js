@@ -19,9 +19,16 @@ module.exports = {
         loader: 'style-loader!css-loader'
       },
       {
-       test: /\.(jpg|jpeg|gif|png|svg)$/,
-       exclude: /node_modules/,
-       loader: "url-loader?limit=1024&name=images/[name].[ext]"   
+        test:  /\.(gif|png|jpe?g|svg)$/i,
+        use: [
+          'file-loader',
+          {
+            loader: 'image-webpack-loader',
+            options: {
+              bypassOnDebug: true,
+            },
+          },
+        ],
       },
       {
         test: /\.jsx?$/,
