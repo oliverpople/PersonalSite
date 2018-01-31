@@ -31,9 +31,10 @@ module.exports = {
         ],
       },
       {
-        test: /\.less/,
-        loader: 'style!css!less',
-      },
+     test: /\.jsx?$/,
+     loader: 'babel!semantic-ui-react-less-loader',
+     include: [/node_modules[\/\\]semantic-ui-react/]
+   },
       {
         test: /\.jsx?$/,
         include: SRC_DIR,
