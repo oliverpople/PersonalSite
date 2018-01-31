@@ -4,7 +4,7 @@ import About from './About.js';
 import Experience from './Experience.js';
 import Contact from './Contact.js';
 import Landing from './Landing.js';
-import NavBar from './Navbar.js';
+import NavBar from './NavBar.js';
 
 class HomePage extends Component {
 
@@ -33,7 +33,7 @@ class HomePage extends Component {
           <Landing />
         </div>
         <div ref="section2">
-        <NavBar />
+          <NavBar />
           <About />
         </div>
         <div ref="section3">
