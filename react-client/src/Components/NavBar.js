@@ -1,12 +1,12 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
 
-import { Sticky } from 'semantic-ui-react';
 
 class NavBar extends Component {
 
   render() {
     return (
-      <Sticky >
+
         <header>
             <span className="navButton" id="homeButton">
               <Link to="/#section1" className="navLink">
@@ -29,7 +29,7 @@ class NavBar extends Component {
               </Link>
             </span>
         </header>
-      </ Sticky>
+
     )
   }
 
