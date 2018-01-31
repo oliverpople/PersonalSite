@@ -31,9 +31,13 @@ module.exports = {
         ],
       },
       {
+        test: /\.less/,
+        loader: 'style!css!less',
+      },
+      {
         test: /\.jsx?$/,
         include: SRC_DIR,
-        loader: 'babel!semantic-ui-react-less-loader',
+        loader: 'babel-loader',
         query: {
           presets: ['es2015', "stage-0", 'react']
        }
