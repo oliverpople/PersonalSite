@@ -1,8 +1,8 @@
 # PersonalSite
 
-A web app I built from scratch with two objectives in mind:
+My first ever React app that I built from scratch with two objectives in mind:
 
- 1) To practise React.js and CSS. This is my first ever React.js app.
+ 1) To practise React.js, webpack and CSS.
  2) To create a public site with which I can represent myself online.
 
 ### Tech Stack
