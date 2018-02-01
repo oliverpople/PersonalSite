@@ -5,7 +5,7 @@ My first ever React app that I built from scratch with two objectives in mind:
  1) To practise React.js, webpack and CSS.
  2) To create a public site with which I can represent myself online.
  
-The app is deployed on Heroku here(http://wwww.oliverpople.com)
+The app is deployed on Heroku [here.](http://wwww.oliverpople.com)
 
 ### Tech Stack
 
