@@ -11,7 +11,8 @@ The app is deployed on Heroku [here.](http://www.oliverpople.com/)
 
 Front-End
 - React.js
-- Webpack.js
+- Webpack
+- bundle.js
 - JQuery
 
 Back-End
