@@ -10,6 +10,7 @@ class Footer extends Component {
           <a href="https://www.linkedin.com/in/oliverpople/"><i class="fa fa-linkedin-square fa-2x" aria-hidden="true"></i></a>
           <a>   </a>
           <a href="https://github.com/oliverpople"><i class="fa fa-github-square fa-2x" aria-hidden="true"></i></a>
+          <br></br>
           <a>Email: oliverpople@gmail.com</a>
         </div>
         <div className='footerContentContainer'>

@@ -7,8 +7,7 @@ class Bio extends Component {
       <div id='bioBoxContent'>
         <h1>I'M OLLIE!</h1>
           <br></br>
-          <br></br>
-        <a>I have just finished a software development boot camp in London, UK.
+        <a>I have just finished a Software Development boot camp in London, UK.
         I am passionate about problem-solving and I believe that all code should
         be well designed, intuitive, and flexible in the face of change.</a>
           <br></br>
@@ -16,10 +15,8 @@ class Bio extends Component {
         <a>I aim to maintain an up to date knowledge of the most current web trends
         and best practices. Javascript is priority number one for me at the moment
         and I am always trying to familiarise myself with the latest frameworks.
-        In fact, this very site is my first ever attempt at using React.js.</a>
-          <br></br>
-          <br></br>
-        <a>However, I’m not always glued to the screen - I also enjoy hiking,
+        In fact, this very site is my first ever attempt at using React.js. However,
+        I’m not always glued to the screen - I also enjoy hiking,
         martial arts, gymnastics, cooking, and taking as many trips abroad as
         my finances will allow.</a>
           <br></br>
